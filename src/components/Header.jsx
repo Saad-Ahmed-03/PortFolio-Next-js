@@ -18,7 +18,7 @@ export default function Header({
                             <img className="main-logo" src={MainLogo.src} alt='logo'/>
                         </a>
                     </Col>
-                    <Col lg={10} sm={2} xs={7} className='flex'>
+                    <Col lg={10} sm={2} xs={7} className='flex naviagtion'>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
